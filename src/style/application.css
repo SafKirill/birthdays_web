@@ -1,0 +1,139 @@
+body {
+    background-color: #f8f9fa;
+}
+
+h2 {
+    color: #007bff;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.form-control {
+    border-radius: 5px;
+    box-shadow: none;
+    border: 1px solid #ced4da;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.navbar {
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(138, 136, 136, 0.1);
+    padding: 0.5rem 1rem;
+}
+
+.navbar .logo {
+    height: 50px;
+    width: auto;
+}
+
+.nav-link {
+    color: #ffffff;
+    margin: 0 0.1rem;
+    transition: color 0.3s;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.textType-nav-link {
+    font-size: 1.2rem;
+}
+
+.header-user-name {
+    font-weight: bold;
+    color: #ffffff;
+    margin-right: 0.4rem;
+    display: flex;
+    align-items: center;
+}
+
+.goOutDecstope img {
+    height: 45px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.goOutDecstope img:hover {
+    transform: scale(1.1);
+}
+
+.container-xxl {
+    max-width: 100%;
+}
+
+.bg-body-tertiary-header {
+    background-color: #3a444d;
+    color: #fff;
+}
+
+.employee-list-container {
+    max-height: 78vh;
+    /* Высота контейнера списка */
+    max-width: 100%;
+    overflow-y: auto;
+    /* Добавляем прокрутку по оси y, если содержимое превышает высоту */
+}
+
+.employee-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.employee-table th,
+.employee-table td {
+    padding: 8px;
+    text-align: center;
+}
+
+.employee-table th {
+    background-color: #f2f2f2;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.employee-table-body {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.employee-table td {
+    border: 1px solid #ddd;
+}
+
+.employee-table td input[type="checkbox"] {
+    margin: 0;
+}
+
+.employee-table td button {
+    padding: 6px 10px;
+}
+
+@media (max-width: 991.98px) {
+    .navbar .header-user-name {
+        margin-right: 0;
+    }
+}
